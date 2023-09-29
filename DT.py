@@ -346,8 +346,8 @@ plt.show()
 # y_test = np.sin(x_test)
 
 # poly = lagrange(x, y)
-# print("MSE_train:",(np.log(sum((poly(x)-y)**2)/len(x))))
-# print("MSE_test:",(np.log(sum((poly(x_test)-y_test)**2)/len(x))))
+# print("MSE_train:",np.log(sum((poly(x)-y)**2)/len(x)))
+# print("MSE_test:",np.log(sum((poly(x_test)-y_test)**2)/len(x)))
 
 # sigmas = [0,0.5,1,10,50,100,1000]
 # a = np.random.normal(0, 1, size = len(x))
@@ -355,7 +355,7 @@ plt.show()
 #     x_noise = x + np.random.normal(0, sigma, size = len(x))
 #     y_noise = np.sin(x_noise)
 #     poly = lagrange(x_noise, y_noise)
-#     print("For standard deviation=", sigma, "\tMSE_train:",(np.log(sum((poly(x_noise)-y_noise)**2)/len(x))))
-#     print("For standard deviation=", sigma, "\tMSE_test:",(np.log(sum((poly(x_test)-y_test)**2)/len(x))))
+#     print("For standard deviation=", sigma, "\tMSE_train:",np.log(sum((poly(x_noise)-y_noise)**2)/len(x)))
+#     print("For standard deviation=", sigma, "\tMSE_test:",np.log(sum((poly(x_test)-y_test)**2)/len(x)))
 
 
