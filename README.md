@@ -2,7 +2,7 @@
 
 Training the decision on a dataset:
 ```
-python3 DY.py Filename
+python3 DT.py Filename
 ```
 
 Example:
